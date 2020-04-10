@@ -49,15 +49,23 @@ body {
   @media only screen and (max-width: 570px) {
     .box {
       margin: 3rem 2rem 0 2rem;
+      padding: 2rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     
   }
   
   @media only screen and (max-width: 375px) {
+    .box {
+        margin: 1rem 1rem 0 1rem;
+        padding: 1rem;
+      }
     h1 {
       font-size: 25px;
     }
+    p {
+        font-size: 0.9rem;
+      }
   }
