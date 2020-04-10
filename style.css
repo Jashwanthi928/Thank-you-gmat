@@ -1,0 +1,129 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden !important; */
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+  .box {
+    margin: 3rem 15rem 0 15rem;
+    padding: 3rem;
+    border: 0.0625rem solid #d4d4d4;
+    border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+  }
+  .logo {
+    width: 215px;
+    height: 74px;
+  }
+  p {
+    color: gray;
+    text-align: center;
+  }
+
+  /* .button {
+    background-color: #e98024;
+    border: 1px solid #e98024;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 60px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  label {
+    color: gray;
+  }
+  select {
+    color: gray;
+  }
+  .formbox {
+    padding: 3rem;
+    border: 0.0625rem solid #d4d4d4;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.180392) 2px 3px 14px 1px;
+  } */
+  /* input {
+    width: 110%;
+    height: 40px;
+    color: gray;
+    margin-bottom: 2%;
+  }
+  select {
+    width: 110%;
+    height: 50px;
+    color: gray;
+  }
+  form {
+    width: 90%;
+  } */
+  @media only screen and (max-width: 1160px) {
+    .box {
+      margin: 3rem 10rem 0 10rem;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .box {
+      margin: 3rem 4rem 0 4rem;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .box {
+      margin: 3rem 2rem 0 2rem;
+    }
+  }
+  @media only screen and (max-width: 570px) {
+    .box {
+      margin: 3rem 2rem 0 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    /* input {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+    .formbox {
+      padding: 1rem;
+    }
+    form {
+      margin-left: auto;
+      margin-right: auto;
+    } */
+  }
+  /* @media only screen and (max-width: 475px) {
+    form {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+    .formbox {
+      padding: 0rem;
+    }
+    .button {
+      margin-left: -3px;
+    }
+  } */
+  @media only screen and (max-width: 375px) {
+    h1 {
+      font-size: 25px;
+    }
+    /* .button {
+      padding: 10px 30px;
+    } */
+  }
